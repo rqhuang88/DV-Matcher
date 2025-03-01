@@ -9,7 +9,7 @@ A novel learning-based framework for estimating dense correspondences between no
 
 ## Quick Start
 ### Installation
-We tested the code on python 3.10.13; torch version '2.2.0'.
+We tested the code on python `3.10.13`; torch version `2.2.0`.
 ```shell
 pip install requirements.txt
 ```
@@ -38,7 +38,7 @@ python test_partial.py
 ``` 
 
 ### More scripts
-In misc/scripts, we have provided more scripts about how we get the partial shapes from 12 different views. Besides, we also exhibt how we add noise/rotation to the dataset for robustness evaluation.
+In `misc/scripts`, we have provided more scripts about how we get the partial shapes from 12 different views. Besides, we also exhibt how we add noise/rotation to the dataset for robustness evaluation.
 
 ## Key Files
 1. `ckpt/` includes our trained checkpoints, both the weight of LG-Net and the weight of deformer. After training, your checkpoints would be saved here, too. Note the issues of file overwriting.
