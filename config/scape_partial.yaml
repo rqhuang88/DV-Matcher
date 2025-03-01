@@ -1,0 +1,55 @@
+expname: dvmatcher_scape_partial
+data: &tem scape_partial
+with_dino: False
+feat_mat: False
+
+val:
+  avg_test: True
+
+# dataset params
+dataset:
+  name: *tem
+  subset: remeshed
+  type: vts
+  root_dataset: data/
+  root_train: *tem
+  root_test: *tem
+  root_geodist: geodist/
+  cache_dir: cache/
+  with_sym: False
+
+# optimizer params
+optimizer:
+  lr: 2e-3
+  b1: 0.9
+  b2: 0.99
+  decay_iter: 10
+  decay_factor: 0.5
+
+training:
+  batch_size: 5
+  epochs: 20
+
+loss:
+  k_deform: 10
+  k_dist: 300
+  N_dist: 500
+  partial: True
+  min_alpha: 10
+  max_alpha: 100
+  w_dist: 0.02
+  w_map: 0.005
+  w_deform: 1000
+  w_self_rec: 1000
+  w_rank: 0
+  w_img: 0
+  deform:
+    w_cd: 0.1
+    w_arap: 0.01
+    
+# misc
+misc:
+  cuda: True
+  device: 0
+  checkpoint_interval: 1
+  log_interval: 5000
