@@ -32,7 +32,7 @@ If you want to get the deformed results using our deformer after training, you c
 ```shell
 python deform.py
 ```
-Remark: You can change the dataset, as well as other parameters by modifying the config file.
+* Remark: You can change the dataset, as well as other parameters by modifying the config file.
 
 ### Testing
 You can test the model using the following scripts:
