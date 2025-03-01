@@ -5,7 +5,7 @@ A novel learning-based framework for estimating dense correspondences between no
 2. We propose a novel deformation-based module to promote the extrinsic alignment induced by the learned correspondences, which effectively enhances the feature learning. 
 
 ## Method overview
-<img src="Fig/pipeline.png" alt="drawing" width="500"/>
+<img src="asset/pipeline.png" alt="drawing" width="500"/>
 
 ## Quick Start
 ### Installation
