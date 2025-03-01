@@ -8,9 +8,15 @@ A novel learning-based framework for estimating dense correspondences between no
 <img src="asset/pipeline.png" alt="drawing" width="500"/>
 
 ## Quick Start
+### Clone the repository
+```shell
+git clone https://github.com/rqhuang88/DV-Matcher.git
+```
+
 ### Installation
 We tested the code on python `3.10.13`; torch version `2.2.0`.
 ```shell
+cd DV-Matcher
 pip install requirements.txt
 ```
 
