@@ -43,6 +43,10 @@ python test_full.py
 python test_partial.py
 ``` 
 
+### Evaluation
+You can evaluate the results [different benchmarks] reported in Table of our paper via scripts under `eval/main.m`.
+Besides, use `eval/geo_mat.py` to calculate the geodesic distance mat ahead. 
+
 ### More scripts
 In `misc/scripts`, we have provided more scripts about how we get the partial shapes from 12 different views. Besides, we also exhibt how we add noise/rotation to the dataset for robustness evaluation.
 
