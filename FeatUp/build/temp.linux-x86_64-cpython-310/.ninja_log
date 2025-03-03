@@ -1,0 +1,7 @@
+# ninja log v5
+0	42868	1713777307379999796	/data_sdf/lgattention-train/FeatUp/build/temp.linux-x86_64-cpython-310/featup/adaptive_conv_cuda/adaptive_conv_cuda.o	8d2e51389446cdbf
+0	122196	1713777386697733149	/data_sdf/lgattention-train/FeatUp/build/temp.linux-x86_64-cpython-310/featup/adaptive_conv_cuda/adaptive_conv_kernel.o	a86b936f33eccd43
+0	36085	1713777423898562121	/data_sdf/lgattention-train/FeatUp/build/temp.linux-x86_64-cpython-310/featup/adaptive_conv_cuda/adaptive_conv.o	92960e8f76e9197e
+17	20568	1723009452621553060	/data_sdf/lgattention-train/FeatUp/build/temp.linux-x86_64-cpython-310/featup/adaptive_conv_cuda/adaptive_conv_cuda.o	23a1d6362794e1a8
+18	63222	1723009495249743174	/data_sdf/lgattention-train/FeatUp/build/temp.linux-x86_64-cpython-310/featup/adaptive_conv_cuda/adaptive_conv_kernel.o	e5cdeb551fab3aa1
+15	19883	1723009515669837217	/data_sdf/lgattention-train/FeatUp/build/temp.linux-x86_64-cpython-310/featup/adaptive_conv_cuda/adaptive_conv.o	1c982cf6592d9ec4
