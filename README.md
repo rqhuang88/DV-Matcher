@@ -1,4 +1,10 @@
 # DV-Matcher: Deformation-based Non-rigid Point Cloud Matching Guided by Pre-trained Visual Features
+[![arXiv](https://img.shields.io/badge/arXiv-PDF-red)](https://arxiv.org/pdf/2408.08568)
+[![Google Drive]([https://img.shields.io/badge/Dataset-GoogleDrive-yellow)](https://drive.google.com/drive/folders/1Xmrb43zIbk3IzLLRQx65iBf7J4SHXa9j](https://drive.google.com/drive/folders/1CK9qihI2yyxkuXsxSHqzTRhLdTk8qghn?usp=sharing)
+
+## GOOD NEWS!!!
+Our paper has been accepted by **CVPR 2025**! See you in Nashville this summer!
+
 ## Instruction
 A novel learning-based framework for estimating dense correspondences between non-rigidly deformable point clouds.
 1. We propose a scheme to inject prior knowledge from pre-trained vision models into geometric feature learning, which effectively complements the local nature of geometric features with global and semantic information.
