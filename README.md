@@ -65,3 +65,15 @@ In `misc/scripts`, we have provided more scripts about how we get the partial sh
 3. `data/` includes all the dataset you'd use to train/test.
 4. `models/` includes the main source codes, including our model architecture, loss function, as well as how the dataset is organized.
 5. After training/tesing, feel free to check the results in `result/`, and training curves under `tensorboard/`. During training, the registration result of deformer would keep changing under `visual_result/`.
+
+## Bibtex
+If you find DV-Matcher helpful for your work, please cite
+
+```
+@article{chen2024unsupervised,
+  title={Unsupervised Non-Rigid Point Cloud Matching through Large Vision Models},
+  author={Chen, Zhangquan and Jiang, Puhua and Huang, Ruqi},
+  journal={arXiv preprint arXiv:2408.08568},
+  year={2024}
+}
+```
