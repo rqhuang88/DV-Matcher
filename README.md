@@ -70,10 +70,11 @@ In `misc/scripts`, we have provided more scripts about how we get the partial sh
 If you find DV-Matcher helpful for your work, please cite
 
 ```
-@article{chen2024unsupervised,
-  title={Unsupervised Non-Rigid Point Cloud Matching through Large Vision Models},
+@inproceedings{chen2025dv,
+  title={DV-Matcher: Deformation-based Non-rigid Point Cloud Matching Guided by Pre-trained Visual Features},
   author={Chen, Zhangquan and Jiang, Puhua and Huang, Ruqi},
-  journal={arXiv preprint arXiv:2408.08568},
-  year={2024}
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={27264--27274},
+  year={2025}
 }
 ```
