@@ -1,6 +1,7 @@
 # DV-Matcher: Deformation-based Non-rigid Point Cloud Matching Guided by Pre-trained Visual Features
 [![arXiv](https://img.shields.io/badge/arXiv-PDF-red)](https://arxiv.org/pdf/2408.08568)
 [![Google Drive](https://img.shields.io/badge/Dataset-GoogleDrive-yellow)](https://drive.google.com/drive/folders/1CK9qihI2yyxkuXsxSHqzTRhLdTk8qghn?usp=sharing)
+[![CVPR25](https://img.shields.io/badge/CVPR-Web-blue)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.html)
 
 ## GOOD NEWS!!!
 Our paper has been accepted by **CVPR 2025**! See you in Nashville this summer!
