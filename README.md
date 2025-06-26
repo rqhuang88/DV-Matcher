@@ -3,9 +3,6 @@
 [![Google Drive](https://img.shields.io/badge/Dataset-GoogleDrive-yellow)](https://drive.google.com/drive/folders/1CK9qihI2yyxkuXsxSHqzTRhLdTk8qghn?usp=sharing)
 [![CVPR25](https://img.shields.io/badge/CVPR-Web-blue)](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_DV-Matcher_Deformation-based_Non-rigid_Point_Cloud_Matching_Guided_by_Pre-trained_Visual_CVPR_2025_paper.html)
 
-## GOOD NEWS!!!
-Our paper has been accepted by **CVPR 2025**! See you in Nashville this summer!
-
 ## Instruction
 A novel learning-based framework for estimating dense correspondences between non-rigidly deformable point clouds.
 1. We propose a scheme to inject prior knowledge from pre-trained vision models into geometric feature learning, which effectively complements the local nature of geometric features with global and semantic information.
