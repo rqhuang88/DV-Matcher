@@ -43,7 +43,7 @@ fastapi-cli==0.0.4
 fastjsonschema==2.19.1
 # Editable install with no version control (featup==0.1.2)
 # -e /data_sdf/lgattention-train/FeatUp
--e git+https://github.com/mhamilton723/FeatUp
+# -e git+https://github.com/mhamilton723/FeatUp
 ffmpy==0.3.2
 filelock==3.12.4
 Flask==3.0.2
