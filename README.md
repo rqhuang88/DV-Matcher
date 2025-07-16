@@ -27,6 +27,7 @@ cd DV-Matcher
 pip install requirements.txt
 pip install git+https://github.com/mhamilton723/FeatUp
 ```
+* Remark: For pointnet2, you should clone from `https://github.com/erikwijmans/Pointnet2_PyTorch`. Then use `python setup.py` install to build it.
 
 ### Training
 We have provided two examples which can be simply executed, corresponding to the full and partial training of SCAPE dataset, respectively.
