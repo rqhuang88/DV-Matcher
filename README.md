@@ -27,7 +27,8 @@ cd DV-Matcher
 pip install requirements.txt
 pip install git+https://github.com/mhamilton723/FeatUp
 ```
-* Remark: For pointnet2, you should clone from `https://github.com/erikwijmans/Pointnet2_PyTorch`. Then use `python setup.py` install to build it.
+* Remark: For pointnet2, you should clone from `https://github.com/erikwijmans/Pointnet2_PyTorch`. Then use `python setup.py` install to build it. For psbody, you should built by `
+pip install git+https://github.com/MPI-IS/mesh.git`.
 
 ### Training
 We have provided two examples which can be simply executed, corresponding to the full and partial training of SCAPE dataset, respectively.
@@ -65,6 +66,14 @@ In `misc/scripts`, we have provided more scripts about how we get the partial sh
 3. `data/` includes all the dataset you'd use to train/test.
 4. `models/` includes the main source codes, including our model architecture, loss function, as well as how the dataset is organized.
 5. After training/tesing, feel free to check the results in `result/`, and training curves under `tensorboard/`. During training, the registration result of deformer would keep changing under `visual_result/`.
+
+## Acknowledgements
+This code utilizes the following Pytorch 3rd-party libraries:
+* [FeatUp](https://github.com/mhamilton723/FeatUp)
+* [ChamferDistancePytorch](https://github.com/ThibaultGROUEIX/ChamferDistancePytorch)
+* [emd](https://github.com/paul007pl/VRCNet)
+* [PointNet](https://github.com/sshaoshuai/Pointnet2.PyTorch)
+* [psbody](https://github.com/MPI-IS/mesh)
 
 ## Bibtex
 If you find DV-Matcher helpful for your work, please cite
