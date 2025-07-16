@@ -25,6 +25,7 @@ We tested the code on python `3.10.13`; torch version `2.2.0`.
 ```shell
 cd DV-Matcher
 pip install requirements.txt
+pip install git+https://github.com/mhamilton723/FeatUp
 ```
 
 ### Training
